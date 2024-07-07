@@ -1,6 +1,3 @@
-# ФАЙЛ С КОНСПЕКТАМИ ПО КУРСУ GIT ОТ ЯНДЕКСА   
-
- 
 **VCS**- Version Control System (система контроля версий)
 или синоним(**SCM** - Source Control Management ) система управления исходным кодом.  
 команды:
@@ -33,7 +30,6 @@ rm -r Имя_папки
 **--all** -флаг для выбора всех файлов  
 **git add .** - для добавления всех файлов из текущей папки в репозиторий    
 [Ссылка на проект](https://github.com/Masslocalnik/project-to-share)  
---  
 ## пример оформления кода (строго для практики оформления)  
 ```C++
 wstring encryptMessage( std::wstring& message, const std::vector<int>& key) {
