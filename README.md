@@ -121,4 +121,9 @@ conventional commits(соглашение о коммитах)
 Например "fix: устранить утечку памяти"  
 Чаще всего сообщение начинается с глагола в форме инфинитива.
 
+```mermaid
+graph LR;
+untracked -- "git add" --> staged;
+staged -- "???" --> tracked/commited;
+```
 [Ссылка на проект](https://github.com/Masslocalnik/project-to-share)  
