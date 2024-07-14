@@ -123,10 +123,10 @@ conventional commits(соглашение о коммитах)
 
 ```mermaid
 graph LR;
-untracked -- "git add" --> 'staged (в списке на коммит) + tracked';
-'staged (в списке на коммит) + tracked' -- "git commit" --> tracked/commited;
-'staged (в списке на коммит) + tracked' -- "Изменения" --> 'Modified (измененный)';
-'Modified (измененный)' -- "git add" --> 'staged (в списке на коммит) + tracked';
-'tracked/commited' --"Изменения"--> 'Modified (измененный)';
+untracked -- "git add" --> staged/tracked;
+staged/tracked -- "git commit" --> tracked/commited;
+staged/tracked -- "Изменения" --> Modified;
+Modified -- "git add" --> staged/tracked;
+tracked/commited --"Изменения"--> Modified;
 ```
 [Ссылка на проект](https://github.com/Masslocalnik/project-to-share)  
